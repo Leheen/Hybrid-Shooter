@@ -10,6 +10,7 @@
     {"id":{"name":"snd_shoot","path":"sounds/snd_shoot/snd_shoot.yy",},"order":1,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":7,},
     {"id":{"name":"spr_enemy_alien","path":"sprites/spr_enemy_alien/spr_enemy_alien.yy",},"order":5,},
+    {"id":{"name":"scr_set_player_invulnerable","path":"scripts/scr_set_player_invulnerable/scr_set_player_invulnerable.yy",},"order":1,},
     {"id":{"name":"snd_gameover","path":"sounds/snd_gameover/snd_gameover.yy",},"order":4,},
     {"id":{"name":"obj_enemy_ufo_red","path":"objects/obj_enemy_ufo_red/obj_enemy_ufo_red.yy",},"order":6,},
     {"id":{"name":"spr_enemy_ufo","path":"sprites/spr_enemy_ufo/spr_enemy_ufo.yy",},"order":3,},

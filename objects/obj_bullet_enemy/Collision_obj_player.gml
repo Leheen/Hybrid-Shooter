@@ -1,9 +1,15 @@
 if(room == rm_level_1) {
-	other.hp -= atk;
+	if(!other.invulnerable) {
+		other.hp -= atk;
+		set_player_invulnerable(other);
+	}
 }
 else {
 	if(color != other.color) {
-		other.hp -= atk;
+		if(!other.invulnerable) {
+			other.hp -= atk;
+			set_player_invulnerable(other);
+		}
 	}
 	else {
 		if(other.super_attack < 100-10) {

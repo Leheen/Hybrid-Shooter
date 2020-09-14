@@ -7,6 +7,8 @@ super_attack = 0;
 can_shoot = true;
 shoot_delay = room_speed * 0.2;
 direction = point_direction(x, y, x, y-1);
+invulnerable = false;
+invulnerability_timer = 30;
 
 if(room == rm_level_1) {
 	color = COLORS.NONE;
